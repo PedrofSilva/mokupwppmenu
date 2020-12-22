@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;600&family=Poppins:wght@500&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*
@@ -52,4 +52,16 @@ nav{
 
 .img-produto{
     max-width: 120px;
+}
+
+.text-titulo-produto{
+
+}
+
+.text-descrição-produto{
+    color: gray;
+}
+
+.text-valor-produto{
+   margin-top: 5px;
 }
