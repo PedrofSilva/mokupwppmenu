@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel = "icon" href ="../imagens/wppicon.icon" type ="image/x-icon"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>WppMenu</title>
+</head>
+<body>
+
+    <nav class="color-background-navbar">
+    </nav>
+
+
+       
+        <div class="container">
+          <div id="Lanches">
+            <div id="produto_id1" class="col s12">
+                <div class="lighten-5">
+                  <div class="row">
+                    <div class="col s3">
+                      <img src="../imagens/hamburguer1.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s9">
+                      <div class="row">
+                        <div class="col s12 text-titulo-produto">
+                          X-Bagunça
+                        </div>
+                        <div class="col s12 text-descrição-produto">
+                          Pão, Hambúrguer 200g, Alface, Queijo, Presunto, Barbecue e Molho da Casa.
+                        </div>
+                        <div class="col s12 text-valor-produto">
+                          R$ 25,00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col s12">
+                    Adicionais (opcional)
+                </div>
+                <div class="col s12">
+                    <a class="waves-effect red darken-3 btn btn-adicional col s1">-</a>
+                    <input id="quantidade_adicional_chedar"class="input-adicional-produto col s1 ml-1" type="" value="0">
+                    <a class="waves-effect green darken-3 btn btn-adicional col s1 ml-1">+</a>
+                    <div class="text-center-align">
+                        <div class="col s6">
+                            Cheddar
+                        </div>
+                        <div class="col s2">
+                            R$ 2,00
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 mt-2">
+                    <a class="waves-effect red darken-3 btn btn-adicional col s1">-</a>
+                    <input id="quantidade_adicional_chedar"class="input-adicional-produto col s1 ml-1" type="" value="0">
+                    <a class="waves-effect green darken-3 btn btn-adicional col s1 ml-1">+</a>
+                    <div class="text-center-align">
+                        <div class="col s6">
+                            Bacon
+                        </div>
+                        <div class="col s2">
+                            R$ 3,50
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 mt-2">
+                    <a class="waves-effect red darken-3 btn btn-adicional col s1">-</a>
+                    <input id="quantidade_adicional_chedar"class="input-adicional-produto col s1 ml-1" type="" value="0">
+                    <a class="waves-effect green darken-3 btn btn-adicional col s1 ml-1">+</a>
+                    <div class="text-center-align">
+                        <div class="col s6">
+                            Cream Cheese
+                        </div>
+                        <div class="col s2">
+                            R$ 1,50
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+       
+
+    
+ 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+        var instance = M.Tabs.init($('.tabs'),{})
+        /*
+        $('[id^=produto_id]').click(function(){
+          window.location.href='https://pedrofsilva.github.io/mokupwppmenu/';
+        })
+        */
+        var adicionalCheddar = $("#quantidade_adicional_chedar")
+        $('#quantidade_adicional_chedar').click(function(){
+            count++;
+        });
+  </script>
+</body>
+</html>

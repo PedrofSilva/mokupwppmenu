@@ -21,7 +21,7 @@
 
     <div class="container">
       <div class="nome-empresa">
-        <h6>Bacanas Lanches</h6>
+        <h5>Bacanas Lanches</h5>
       </div>
     </div>
 
@@ -29,8 +29,8 @@
         <div class="row">
             <div class="col s6">
                 <ul class="tabs tabs-fixed-width">
-                <li class="tab col s1"><a href="#Lanches">Lanches</a></li>
-                <li class="tab col s1"><a href="#test2">Doces</a></li>                
+                <li class="tab col s12"><a href="#Lanches">Lanches</a></li>
+                <li class="tab col s12"><a href="#sorvetes">Doces</a></li>                
                 </ul>
                 <div class="linha-categorias"></div>
             </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="container">
           <div id="Lanches">
-            <div class="col s12">
+            <div id="produto_id1" class="col s12">
                 <div class="lighten-5">
                   <div class="row">
                     <div class="col s3">
@@ -62,7 +62,7 @@
                 </div>
               </div>
 
-              <div class="col s12">
+              <div id="produto_id2" class="col s12">
                 <div class="lighten-5">
                   <div class="row">
                     <div class="col s3">
@@ -86,7 +86,7 @@
                 </div>
               </div>
 
-              <div class="col s12">
+              <div id="produto_id3" class="col s12">
                 <div class="lighten-5">
                   <div class="row">
                     <div class="col s3">
@@ -113,7 +113,60 @@
             </div>
         </div>
 
-          <div id="test2" class="col s12">Test 3</div>  
+        <div class="container">
+          <div id="sorvetes">
+            <div id="produto_id4" class="col s12">
+                <div class="lighten-5">
+                  <div class="row">
+                    <div class="col s3">
+                      <img src="../imagens/sorvete.jpeg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s9">
+                      <div class="row">
+                        <div class="col s12 text-titulo-produto">
+                          Sorvete de Morango DUAS BOLAS
+                        </div>
+                        <div class="col s12 text-descrição-produto">
+                          Contem duas bolas de sorvete de pote sabor Morgango
+                        </div>
+                        <div class="col s12 text-valor-produto">
+                          R$ 8,00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+
+              <div id="produto_id5" class="col s12">
+                <div class="lighten-5">
+                  <div class="row">
+                    <div class="col s3">
+                      <img src="../imagens/sorvete2.jpeg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s9">
+                      <div class="row">
+                        <div class="col s12 text-titulo-produto">
+                          Sorvete The Black
+                        </div>
+                        <div class="col s12 text-descrição-produto">
+                          Contem sorvete Bolas de chocolate preto.
+                        </div>
+                        <div class="col s12 text-valor-produto">
+                          R$ 8,00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+       
     </div>
     
  
@@ -122,6 +175,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
         var instance = M.Tabs.init($('.tabs'),{})
+
+        $('[id^=produto_id]').click(function(){
+          window.location.href='../HTML/DetalhesCompraProduto.html';
+        })
   </script>
 </body>
 </html>
