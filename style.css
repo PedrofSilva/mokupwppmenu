@@ -9,6 +9,12 @@ nav{
     background-color: red !important;
 }
 */
+
+.row{
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+}
+
 .color-background-navbar{
     background-color: red !important;
 }
@@ -17,6 +23,11 @@ nav{
    padding: 5px !important;
    background-color: red;
 }
+
+.nome-empresa{
+    margin-top: 60px;
+}
+
 .logo-empresa-circulo {
     width: 100px;
     height: 100px;
@@ -43,11 +54,17 @@ nav{
 }
 
 .categorias{
-    margin-top: 60px !important;
+   
 }
 
-.tabs a{
+
+.tabs, .tabs a{
     color: red !important;
+    background-color: transparent !important;
+}
+
+.indicator{
+    background-color: red !important;
 }
 
 .img-produto{
@@ -55,13 +72,23 @@ nav{
 }
 
 .text-titulo-produto{
-
+    font-size: large;
 }
 
 .text-descrição-produto{
+    font-size: small;
     color: gray;
 }
 
 .text-valor-produto{
-   margin-top: 5px;
+    margin-top: 5px;
+}
+
+hr {
+    border-top: 0.1px solid rgba(0, 0, 0, 0.2);
+}
+
+.linha-categorias{
+    margin-top: -2px;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
 }
