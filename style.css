@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+
 }
 
 /*
@@ -11,8 +12,10 @@ nav{
 */
 
 .row{
+    /*
     margin-top: 10px !important;
     margin-bottom: 5px !important;
+    */
 }
 
 .color-background-navbar{
@@ -72,16 +75,17 @@ nav{
 }
 
 .text-titulo-produto{
-    font-size: large;
+    font-size: small;
 }
 
 .text-descrição-produto{
-    font-size: small;
+    font-size: smaller;
     color: gray;
 }
 
 .text-valor-produto{
     margin-top: 5px;
+    font-size: smaller;
 }
 
 hr {
