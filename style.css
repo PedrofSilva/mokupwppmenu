@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    height: 800px; /*margin para teste*/
 
 }
 
@@ -99,14 +100,25 @@ hr {
 
 
 .input-adicional-produto {
-	width:35px;
-    padding: 8px;
+	width:40px;
+    padding: 6px !important;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.8);
     height: 36px
 }
 .btn-adicional{
    
+}
+
+.footer-fixed{
+    height: 35px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    padding-bottom: 50px;
+    color: rgb(73, 73, 73);
 }
 
 .text-center-align{
@@ -130,3 +142,6 @@ hr {
     margin-top: 4rem !important;
 }
 
+.text-center{
+    text-align: center !important;
+}
