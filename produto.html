@@ -44,8 +44,29 @@
             </div>
         </div>
 
-        <div class="container mt-4 text-size">
-            <div class="row">
+        <div class="container text-size">
+            <div class=" mt-3">
+              <div class="row">
+                  <div class="col s12 mb-1">
+                    Quantidade
+                  </div>
+                  <div class="col s2 ml-1">
+                    <a class="waves-effect red darken-3 btn btn-adicional text-right-align">-</a>
+                  </div>  
+                  <div class="ml-1 s2">
+                    <input class="input-quantidade-produto ml-1 col s1" type="" value="1">
+                  </div>
+                  <div class="col s2">
+                    <a class="waves-effect green darken-3 btn btn-adicional">+</a>
+                  </div>
+                  
+              </div>
+            </div>
+            
+
+
+            <div class="row mt-4">
+              <hr>
                 <div class="col s12">
                     Adicionais (opcional)
                 </div>
@@ -89,16 +110,23 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="input-field col s12 mt-4">
+              <textarea class="materialize-textarea" placeholder="Ex: Adicionar Pouco ovo, gema mole"></textarea>
+              <label for="textarea1">Observações</label>
+            </div>
         </div>
+        
         <footer class="footer-fixed z-depth-3">
          
           
             <div class=" mt-3">
               <div class="row">
-              
+                  
                   <div class="col s2">
                     <i class="material-icons icon-home">home</i>
                   </div>
+                  <!--
                   <div class="col s1 ml-1">
                     <a class="waves-effect red darken-3 btn btn-adicional text-right-align">-</a>
                   </div>  
@@ -107,6 +135,10 @@
                   </div>
                   <div class="col s2">
                     <a class="waves-effect green darken-3 btn btn-adicional">+</a>
+                  </div>
+                  -->
+                  <div class="col s3">
+                    <div class="subtotal-valor-produto grey-text text-darken-3">R$: 25,00</div>
                   </div>
                   <div class="col s4">
                       <button class="waves-effect red darken-3 btn btn-adicionar-carrinho">Adicionar ao Carrinho</button>

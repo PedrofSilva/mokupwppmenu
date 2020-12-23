@@ -99,6 +99,13 @@ hr {
     border-top: 2px solid rgba(0, 0, 0, 0.2);
 }
 
+.input-quantidade-produto{
+    width:10% !important;
+    padding: 6px !important;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 36px
+}
 
 .input-adicional-produto {
 	width:100px;
@@ -115,12 +122,17 @@ hr {
     height: 36px
 }
 
+.subtotal-valor-produto{
+    margin-top: 7px;
+    font-size: 16px;
+}
+
 .btn-adicional{
    
 }
 
 .btn-adicionar-carrinho{
-    width: 150px;
+    width: 180px;
     font-size: 12px !important;
     padding: 1px !important;
     letter-spacing: 0 !important;
@@ -177,7 +189,11 @@ hr {
 }
 
 .mt-4{
-    margin-top: 4rem !important;
+    margin-top: 3.5rem !important;
+}
+
+.mb-1{
+    margin-bottom: 1rem !important;
 }
 
 .text-center{
