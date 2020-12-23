@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel = "icon" href ="imagens/wppicon.icon" type ="image/x-icon"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>WppMenu</title>
+</head>
+<body>
+    
+    <div class="navbar color-background-navbar white-text z-depth-1">
+        <div class="row">
+            <div class="col s6 margin-align-start mt-1">
+                <div class="material-icons icon-cart ">add_shopping_cart</div>
+            </div>
+            <div class="col s6 subtotal-cart margin-align-end">
+                 R$ 79,00
+            </div>
+        </div>
+    </div>
+
+
+       
+        <div class="container mt-5">
+          <div id="Lanches">
+            <div id="produto_id1" class="col s12 mt-2">
+
+                <div class="lighten-5">
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="row">
+                        <div class="col s2 font-quantidade-und black-text text-darken-3">
+                            2 x
+                        </div>
+                        <div class="col s7 text-titulo-produto">
+                          X-Bagunça
+                        </div>
+                        <div class="col s3 text-valor-produto-carrinho">
+                          R$ 50,00
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+
+                <div class="lighten-5">
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="row">
+                          <div class="col s2 font-quantidade-und black-text text-darken-3">
+                              1 x
+                          </div>
+                          <div class="col s7 text-titulo-produto">
+                            Soverte Morango
+                          </div>
+                          <div class="col s3 text-valor-produto-carrinho">
+                            R$ 8,00
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+
+                  <div class="lighten-5">
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="row">
+                          <div class="col s2 font-quantidade-und black-text text-darken-3">
+                              2 x
+                          </div>
+                          <div class="col s7 text-titulo-produto">
+                            Soverte Chocolate
+                          </div>
+                          <div class="col s3 text-valor-produto-carrinho">
+                            R$ 16,00
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+
+                  <div class="lighten-5 mt-1">
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="row">
+
+                            <div class="col s9 font-quantidade-und grey-text text-darken-1 text-titulo-produto">
+                                Subtotal:
+                            </div>
+                            <div class="col s3 font-quantidade-und grey-text text-darken-1 text-valor-produto-carrinho">
+                                R$ 74,00
+                            </div>
+                    
+                            <div class="col s9 font-quantidade-und grey-text text-darken-1 text-titulo-produto">
+                                Taxa de Entrega:
+                            </div>
+                            <div class="col s3 font-quantidade-und grey-text text-darken-1 text-valor-produto-carrinho">
+                                R$ 5,00
+                            </div>
+
+                            <div class="col s9 font-quantidade-und grey-text text-darken-4 text-titulo-produto mt-1">
+                                Total:
+                            </div>
+                            <div class="col s3 font-quantidade-und grey-text text-darken-4 text-valor-produto-carrinho mt-1">
+                                R$ 79,00
+                            </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+        </div>
+
+
+
+
+        
+        <footer class="footer-fixed z-depth-3">
+         
+          
+            <div class=" mt-3">
+              <div class="row">
+                  
+                  <div class="col s1">
+                    <i class="material-icons icon-home">home</i>
+                  </div>
+                  <!--
+                  <div class="col s1 ml-1">
+                    <a class="waves-effect red darken-3 btn btn-adicional text-right-align">-</a>
+                  </div>  
+                  <div class="ml-1 ">
+                    <input class="input-adcionar-produto ml-1 col s1" type="" value="0">
+                  </div>
+                  <div class="col s2">
+                    <a class="waves-effect green darken-3 btn btn-adicional">+</a>
+                  </div>
+                  -->
+                  <div class="col s4">
+                    <div class="subtotal-valor-produto grey-text text-darken-3"></div>
+                  </div>
+                  <div class="col s4">
+                      <!--<button class="waves-effect red darken-3 btn btn-adicionar-carrinho">Finalizar Pedido</button><i class="material-icons icon-cart">send</i>-->
+                      <button class="waves-effect red darken-3 btn btn-enviar-pedido">Enviar Pedido</button>
+                  </div>
+              </div>
+              
+            </div>
+
+        </footer>
+
+
+       
+
+    
+ 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+        var instance = M.Tabs.init($('.tabs'),{})
+        
+        $('.icon-home').click(function(){
+          window.location.href='index.html';
+        })
+        
+
+  </script>
+</body>
+</html>
