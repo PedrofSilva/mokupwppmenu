@@ -15,8 +15,9 @@ nav{
 .row{
     /*
     margin-top: 10px !important;
-    margin-bottom: 5px !important;
     */
+    margin-bottom: 5px !important;
+    
 }
 
 .color-background-navbar{
@@ -100,7 +101,15 @@ hr {
 
 
 .input-adicional-produto {
-	width:40px;
+	width:100px;
+    padding: 6px !important;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 36px
+}
+
+.input-adcionar-produto{
+    width:100px;
     padding: 6px !important;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -108,6 +117,13 @@ hr {
 }
 .btn-adicional{
    
+}
+
+.btn-adicionar-carrinho{
+    width: 150px;
+    font-size: 12px !important;
+    padding: 1px !important;
+    letter-spacing: 0 !important;
 }
 
 .footer-fixed{
@@ -121,13 +137,31 @@ hr {
     color: rgb(73, 73, 73);
 }
 
+.icon-home{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
 .text-center-align{
     position: relative;
-    top: 8px;
+    top: 9px;
+}
+
+.text-right-align{
+    float: right;
+    display: block;
+ 
+}
+.text-size{
+    font-size:13px;
 }
 
 .ml-1{
     margin-left: 0.3rem !important;
+}
+
+.ml-2{
+    margin-left: 2.2rem !important;
 }
 
 .mt-1{
@@ -136,6 +170,10 @@ hr {
 
 .mt-2{
     margin-top: 1.2rem !important;
+}
+
+.mt-3{
+    margin-top: 0.6rem !important;
 }
 
 .mt-4{
