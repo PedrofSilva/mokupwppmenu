@@ -236,6 +236,10 @@ hr {
     margin-bottom: 1rem !important;
 }
 
+.pg-1{
+    padding: 1rem !important;
+}
+
 .text-center{
     text-align: center !important;
 }
@@ -251,3 +255,4 @@ hr {
 .text-align-start{
     text-align: start;
 }
+
