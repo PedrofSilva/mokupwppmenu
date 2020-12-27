@@ -223,6 +223,10 @@ hr {
     font-size:x-large !important;
 }
 
+.icon-excluir-itens-carrinho{
+    margin-top: -3px;
+}
+
 .text-center-align{
     position: relative;
     top: 9px;
