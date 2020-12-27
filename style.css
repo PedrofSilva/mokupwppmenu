@@ -101,6 +101,10 @@ nav{
     font-size: smaller;
 }
 
+.text-valor-total-carrinho{
+    font-size: 15px;
+}
+
 hr {
     border-top: 0.1px solid rgba(0, 0, 0, 0.2);
 }
@@ -237,9 +241,13 @@ hr {
 }
 
 .margin-align-end {
-    text-align: end;
+    text-align: end !important;
 }
 
 .margin-align-start {
+    text-align: start;
+}
+
+.text-align-start{
     text-align: start;
 }
