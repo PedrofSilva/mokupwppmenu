@@ -193,14 +193,94 @@
 
                   <hr>
 
-                  <div class="col s12 mt-2">
+                  <div class="col s12 mt-4">
                     <div class="row">
                       <div class="col s12 mb-1">
                         Contato 
                       </div>
+
+                      <form class="col s12">
+                        <div class="row">
+                          <div class="input-field col s6">
+                            <input placeholder="" id="first_name" type="text" class="validate">
+                            <label for="first_name">Nome</label>
+                          </div>
+                          <div class="input-field col s6">
+                            <input placeholder="(99) 9 9999-9999" id="first_name" type="text" class="validate">
+                            <label for="first_name">Telefone</label>
+                          </div>
+                        </div>
+                      </form>
                       
                     </div>
                   </div>
+
+
+                  <div class="col s12 mt-2">
+                    <div class="row">
+                      <div class="col s12 mb-1">
+                        Pagamento 
+                      </div>
+                      
+                      <form action="#">
+                        <p>
+                          <label>
+                            <input class="with-gap" name="group1" type="radio" checked />
+                            <span>Cartão de Crédito</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="group1" type="radio" />
+                            <span>Cartão de Débito</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="group1" type="radio"  />
+                            <span>Dinheiro</span>
+                          </label>
+                        </p>
+                      </form>
+                      
+                      
+                    </div>
+                  </div>
+
+                  <div class="col s12 mt-4">
+                    <div class="row">
+                      <div class="col s12 mb-1">
+                        Endereço da Entrega 
+                      </div>
+
+                      <form class="col s12 mb-5">
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input placeholder="Ex: Benedito Lopes" id="first_name" type="text" class="validate">
+                            <label for="first_name">Rua</label>
+                          </div>
+                          <div class="input-field col s3">
+                            <input placeholder="" id="first_name" type="text" class="validate">
+                            <label for="first_name">N°:</label>
+                          </div>
+                          <div class="input-field col s9">
+                            <input placeholder="" id="first_name" type="text" class="validate">
+                            <label for="first_name">Bairro</label>
+                          </div>
+                          <div class="input-field col s12">
+                            <input placeholder="Ex: Bloco 5 Apt2" id="first_name" type="text" class="validate">
+                            <label for="first_name">Complemento</label>
+                          </div>
+                          <div class="input-field col s12">
+                            <input placeholder="Ao lado da Amendoeira" id="first_name" type="text" class="validate">
+                            <label for="first_name">Ponto de Referência</label>
+                          </div>
+                        </div>
+                      </form>
+                      
+                    </div>
+                  </div>
+
 
               </div>
             </div>
@@ -248,8 +328,6 @@
         $('.icon-home').click(function(){
           window.location.href='index.html';
         })
-        
-
   </script>
 </body>
 </html>
