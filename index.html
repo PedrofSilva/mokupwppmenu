@@ -12,7 +12,7 @@
 <body>
 
     <nav class="color-background-navbar">
-        <div class="margin z-depth-1">
+        <div class="margin-nav z-depth-1">
             <div class="logo-empresa-circulo">
                 <div class="logo-empresa-interno"></div>
             </div>
@@ -21,11 +21,39 @@
 
     <div class="container">
       <div class="nome-empresa">
-        <h5>Bacanas Lanches</h5>
+        <div>Bacanas Lanches</div>
+        
+          <div id="toggle-horarios-funcionamento">
+            <div class="row mb-row">
+              <div class="status-aberto col s1 text-center p-0">
+                <span class="circle-status-aberto"></span>
+              </div>
+              <div class="status-aberto col s2 text-align-start p-0">
+                Aberto
+              </div>
+              <div class="col s3 p-0">
+                <i class="icon-expand-horario material-icons">expand_more</i>
+              </div>
+            </div>
+          </div>
+        <div id="toggle-info-horarios">
+        
+          <div class="row">
+            <div class="col s6">segunda-feira</div>	<div class="col s6">06:00–22:30</div>
+            <div class="col s6">terça-feira</div>	  <div class="col s6">06:00–22:30</div>
+            <div class="col s6">quarta-feira</div>	  <div class="col s6">06:00–22:30</div>
+            <div class="col s6">quinta-feira</div>	  <div class="col s6">06:00–22:30</div>
+            <div class="col s6">sexta-feira</div>	  <div class="col s6">06:00–22:30</div>
+            <div class="col s6">sábado</div>		      <div class="col s6">06:00–22:30</div>
+            <div class="col s6">domingo</div>		    <div class="col s6">Fechado</div>
+          </div>
+        </div>
+
+
       </div>
     </div>
 
-    <div class="categorias">
+    <div class="categorias mt-1">
         <div class="row">
             <div class="col s6">
                 <ul class="tabs tabs-fixed-width">
@@ -38,25 +66,31 @@
         </div>
         <div class="container">
           <div id="Lanches">
-            <div id="produto_id1" class="col s12 mt-2">
+            <div id="" class="col s12 mt-2">
                 <div class="lighten-5">
                   <div class="row">
-                    <div class="col s3">
-                      <img src="imagens/hamburguer1.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
-                    </div>
-                    <div class="col s9">
-                      <div class="row">
-                        <div class="col s12 text-titulo-produto">
-                          X-Bagunça
-                        </div>
-                        <div class="col s12 text-descrição-produto">
-                          Pão, Hambúrguer 200g, Alface, Queijo, Presunto, Barbecue e Molho da Casa.
-                        </div>
-                        <div class="col s12 text-valor-produto">
-                          R$ 25,00
+                    <div class="col s10">
+                      <div class="col s3">
+                        <img src="imagens/hamburguer1.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+                      </div>
+                      <div class="col s9">
+                        <div class="row">
+                          <div class="col s12 text-titulo-produto">
+                            X-Bagunça
+                          </div>
+                          <div class="col s12 text-descrição-produto">
+                            Pão, Hambúrguer 200g, Alface, Queijo, Presunto, Barbecue e Molho da Casa.
+                          </div>
+                          <div class="col s12 text-valor-produto">
+                            R$ 25,00
+                          </div>
                         </div>
                       </div>
                     </div>
+                    <div class="col s2 red-text">
+                      <div onclick="M.toast({html: 'Produto Adicionado no Carrinho'})"><i class="small material-icons">add_circle_outline</i></div>
+                    </div>
+
                   </div>
                   <hr>
                 </div>
@@ -175,10 +209,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
         var instance = M.Tabs.init($('.tabs'),{})
+        var instances = M.Collapsible.init($('.collapsible'), {});
 
         $('[id^=produto_id]').click(function(){
           window.location.href='produto.html';
         })
+
+        $( "#toggle-horarios-funcionamento" ).click(function() {
+        $( "#toggle-info-horarios" ).toggle( "slow" );
+        });
   </script>
 </body>
 </html>

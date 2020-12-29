@@ -31,7 +31,7 @@ nav{
     background-color: red !important;
 }
 
-.margin{
+.margin-nav{
    padding: 5px !important;
    background-color: red;
 }
@@ -69,6 +69,39 @@ nav{
    
 }
 
+.status-aberto{
+    color: rgb(47, 170, 47);
+    font-size: 12px;
+}
+
+.status-fechado{
+    color: rgb(255, 65, 65);
+    font-size: 12px;
+}
+
+.circle-status-aberto{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1px;
+    background-color: rgb(47, 170, 47);
+}
+
+.circle-status-fechado{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1px;
+    background-color: rgb(255, 65, 65);
+}
+
+#toggle-info-horarios{
+    display: none;
+}
 
 .tabs, .tabs a{
     color: red !important;
@@ -227,8 +260,21 @@ hr {
     margin-top: -3px;
 }
 
+.icon-expand-horario{
+    font-size: 19px !important;
+    margin-left: -15px;
+    color: rgb(47, 170, 47);
+}
+
+.toast {
+    width: 250px !important;
+    font-size:12px !important;
+    margin-bottom: 15px;
+    background-color: rgb(255, 41, 41) !important;
+}
+
 /*Desativando Padrão de Margem do Icone Collapse*/
-.collapsible-header i{
+.collapsible-header i {
     margin-right: 0 !important;
 }
 
@@ -254,6 +300,10 @@ hr {
     margin-left: 2.2rem !important;
 }
 
+.mr-1{
+    margin-right: 0.3rem !important;
+}
+
 .mt-1{
     margin-top: 1rem !important;
 }
@@ -273,6 +323,7 @@ hr {
 .mt-5{
    margin-top:  6rem !important;
 }
+
 .mb-1{
     margin-bottom: 1rem !important;
 }
@@ -293,6 +344,15 @@ hr {
     margin-bottom: 5rem !important;
 }
 
+.mb-row{
+    margin-bottom: 0px !important;
+    padding: 0 !important;
+}
+
+.p-0{
+    padding: 0 !important;
+}
+
 .pg-1{
     padding: 1rem !important;
 }
@@ -310,6 +370,9 @@ hr {
 }
 
 .text-align-start{
-    text-align: start;
+    text-align: start !important;
 }
 
+.text-align-end{
+    text-align: end !important;
+}
