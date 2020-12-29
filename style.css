@@ -227,6 +227,11 @@ hr {
     margin-top: -3px;
 }
 
+/*Desativando Padrão de Margem do Icone Collapse*/
+.collapsible-header i{
+    margin-right: 0 !important;
+}
+
 .text-center-align{
     position: relative;
     top: 9px;
