@@ -41,10 +41,10 @@
           <div class="row">
             <div class="col s6">segunda-feira</div>	<div class="col s6">06:00–22:30</div>
             <div class="col s6">terça-feira</div>	  <div class="col s6">06:00–22:30</div>
-            <div class="col s6">quarta-feira</div>	  <div class="col s6">06:00–22:30</div>
-            <div class="col s6">quinta-feira</div>	  <div class="col s6">06:00–22:30</div>
+            <div class="col s6">quarta-feira</div>	<div class="col s6">06:00–22:30</div>
+            <div class="col s6">quinta-feira</div>	<div class="col s6">06:00–22:30</div>
             <div class="col s6">sexta-feira</div>	  <div class="col s6">06:00–22:30</div>
-            <div class="col s6">sábado</div>		      <div class="col s6">06:00–22:30</div>
+            <div class="col s6">sábado</div>		    <div class="col s6">06:00–22:30</div>
             <div class="col s6">domingo</div>		    <div class="col s6">Fechado</div>
           </div>
         </div>
@@ -69,11 +69,12 @@
             <div id="" class="col s12 mt-2">
                 <div class="lighten-5">
                   <div class="row">
-                    <div class="col s10">
+
+                    <div class="col s11 p-0">
                       <div class="col s3">
                         <img src="imagens/hamburguer1.jpg" alt="" class="responsive-img"> <!-- notice the "circle" class -->
                       </div>
-                      <div class="col s9">
+                      <div class="col s9 p-0">
                         <div class="row">
                           <div class="col s12 text-titulo-produto">
                             X-Bagunça
@@ -87,8 +88,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col s2 red-text">
-                      <div onclick="M.toast({html: 'Produto Adicionado no Carrinho'})"><i class="small material-icons">add_circle_outline</i></div>
+                    <div class="col s1 red-text text-darken-1 p-0">
+                      <div onclick="M.toast({html: 'Adicionado no Carrinho', inDuration: 100 , displayLength: 1200 })"><i class="small material-icons">add_circle_outline</i></div>
                     </div>
 
                   </div>
@@ -202,6 +203,22 @@
 
        
     </div>
+
+    <footer class="footer-fixed z-depth-3">
+         
+          
+      <div class="mt-3">
+        <div class="row">
+            
+            <div class="col s12 margin-align-end">
+              <i class="material-icons icon-carrinho">add_shopping_cart</i>
+            </div>
+            
+        </div>
+        
+      </div>
+
+    </footer>
     
  
 
@@ -218,6 +235,10 @@
         $( "#toggle-horarios-funcionamento" ).click(function() {
         $( "#toggle-info-horarios" ).toggle( "slow" );
         });
+
+        $('.icon-carrinho').click(function(){
+          window.location.href='carrinho.html';
+        })
   </script>
 </body>
 </html>

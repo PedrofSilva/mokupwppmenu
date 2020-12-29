@@ -248,6 +248,11 @@ hr {
     margin-left: 5px;
 }
 
+.icon-carrinho{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
 .icon-cart{
     font-weight: 2rem !important;
 }
@@ -267,10 +272,11 @@ hr {
 }
 
 .toast {
-    width: 250px !important;
+    width: 200px !important;
     font-size:12px !important;
-    margin-bottom: 15px;
-    background-color: rgb(255, 41, 41) !important;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    background-color: rgb(255, 19, 19) !important;
 }
 
 /*Desativando Padrão de Margem do Icone Collapse*/
