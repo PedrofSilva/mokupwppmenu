@@ -289,6 +289,9 @@ hr {
     color: rgb(47, 170, 47);
 }
 
+.icon-adicionar-carrinho{
+    font-weight:bold !important;
+}
 .toast {
     width: 200px !important;
     font-size:12px !important;
