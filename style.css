@@ -291,7 +291,9 @@ hr {
 
 .icon-adicionar-carrinho{
     font-weight:bold !important;
+    margin-right: 5px !important;
 }
+
 .toast {
     width: 200px !important;
     font-size:12px !important;
