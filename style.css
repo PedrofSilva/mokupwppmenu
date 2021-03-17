@@ -2,9 +2,45 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    height: 800px; /*margin para teste*/
+    /*height: 800px; margin para teste*/
 
 }
+
+/************************ TELA LOGIN *************************/
+.bg-login{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.bg-green{
+    height: 50px;
+    background-color:rgb(47, 170, 47);
+    text-align: center;
+    color: white;
+    border-radius: 2px 2px 0 0;
+    line-height:80px
+}
+
+.box-login{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 5px 7px rgba(0,0,0,.3);
+}
+
+
+
+/************************ FIM TELA LOGIN *************************/
+
+
+
+
 
 /*
 nav{
@@ -102,6 +138,15 @@ nav{
 
 #toggle-info-horarios{
     display: none;
+}
+
+.layout-horarios-collapsible{
+    border: none !important;
+    box-shadow: none  !important;
+}
+
+.layout-horararios-header{
+    display: contents !important;
 }
 
 .tabs, .tabs a{
